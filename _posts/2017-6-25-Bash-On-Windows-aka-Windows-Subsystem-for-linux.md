@@ -42,7 +42,7 @@ Downloading from the Windows Store... 100%
 Error: 0x80070002
 ```
 
-Now as an experienced developer, I knew that since its been a couple of months since the release of creators update, there would be other who would've run into this issue and at least one who would've found a solution. You see, the difference between a seasoned dev and a newbie is in their google (or DuckDuckGo if you're like me) search skills :-). My search landed on [this github issue](https://github.com/Microsoft/BashOnWindows/issues/4). Unfortunately, none of the steps worked for me. I've mentioned the thread nevertheless because I learnt a lot of things like the lxrun program, resetting the default unix user on bash and the existence of an offline installer. 
+Now as an experienced developer, I knew that since its been a couple of months since the release of creators update, there would be other who would've run into this issue and at least one who would've found a solution. You see, the difference between a seasoned dev and a newbie is in their google (or DuckDuckGo if you're like me) search skills :-). My search landed on [this github issue](https://github.com/Microsoft/BashOnWindows/issues/4). Unfortunately, none of the steps worked for me. I've mentioned the thread nevertheless because I learnt a lot of things like the lxrun program, resetting the default unix user on bash and the existence of an [offline installer](https://github.com/DDoSolitary/LxRunOffline). 
 
 The solution that worked for me though was inspired from this [github thread](https://github.com/Microsoft/BashOnWindows/issues/524) and is summarised as follows:
 
@@ -68,3 +68,7 @@ Codename:       xenial
 ```
 
 Have Fun!
+
+References:
+- Ubuntu's account of the [Windows Subsystem for Linux](https://insights.ubuntu.com/2016/03/30/ubuntu-on-windows-the-ubuntu-userspace-for-windows-developers/)
+- You may want to change your Windows DNS server as [explained here](http://solverbase.com/w/Windows_10:_Changing_DNS_Servers) - gives your internet speed a bit more juice as DNS is the first hit when you try to access any internet resource.
